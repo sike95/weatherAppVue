@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "prettier",
+    "prettier/vue"
+  ],
+  "env": { 
+    "jest": true
+  },
+  "globals": { 
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
